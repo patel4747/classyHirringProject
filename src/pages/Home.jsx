@@ -1,6 +1,4 @@
 import React from "react";
-import Button from "../components/Button";
-import Card from "../components/Card";
 import FileUpload from "../components/FileUplode/FileUplode";
 import Container from "../components/Container/Container";
 import logo from "./logoo.png";
