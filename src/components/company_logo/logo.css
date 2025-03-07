@@ -1,0 +1,26 @@
+.logo {
+  display: flex;
+  flex-wrap: wrap; /* Ensures images move to the next line on smaller screens */
+  align-items: center;
+  justify-content: center;
+  gap: 50px; /* Increased spacing between images */
+  width: 100vw; /* Full viewport width */
+  max-width: 2000px; /* Increased max width for larger screens */
+  margin: 10px auto; /* Centers it properly */
+  padding: 10px; /* Adds extra spacing */
+  height: 200px; /* Increased height for a larger section */
+}
+
+.logo img {
+  height: 150px; /* Increased image size */
+  width: auto;
+  max-width: 900px; /* Increased max width */
+}
+
+.pera {
+  margin-top: 30px;
+  text-align: center;
+  font-size: xx-large; /* Made text even bigger */
+  font-weight: bold;
+  color: #333;
+}

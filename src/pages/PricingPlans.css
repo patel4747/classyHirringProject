@@ -1,0 +1,104 @@
+.pricing-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.toggle-btn {
+  background: white;
+  border: 2px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle-btn.active {
+  background: #405de6;
+  color: white;
+  border: none;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  transition: transform 0.3s;
+  box-shadow: 5px 5px 15px rgba(255, 0, 255, 0.3); /* Blurry pink shadow */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card.free {
+  background: white;
+  border: 2px solid #ccc; /* Removed pink border */
+}
+
+.card.premium {
+  background: #1e2a4a;
+  color: white;
+  border: 2px solid #ccc; /* Removed pink border */
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.min-total {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ff00ff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.select-plan {
+  background: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.select-plan:hover {
+  background: #ddd;
+}
